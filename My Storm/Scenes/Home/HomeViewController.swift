@@ -136,7 +136,7 @@ class HomeViewController: UIViewController, HomeDisplay {
 extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return isLoading ? 5 : (self.datasource?.count ?? 0)
+        return isLoading ? 6 : (self.datasource?.count ?? 0)
     }
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -181,14 +181,14 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
 
     // Cell Margin
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-        return UIEdgeInsets(top: 16, left: 16, bottom: 16, right: 16)
+        return UIEdgeInsets(top: 16, left: 0, bottom: 16, right: 0)
     }
     
 
 
     private func returnCellSize()-> CGSize {
         let divideBy: CGFloat = returnCellWidth()
-        let padding: CGFloat = 34
+        let padding: CGFloat = 32
         return CGSize(width: (homeCollectionView.frame.width/divideBy)-padding, height: 180)
     }
 
@@ -200,7 +200,7 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
         case (widthOfView >= 560 && widthOfView < 768):
             return 2
         case (widthOfView > 768):
-            return 3
+            return 2
         default:
             return 2
         }
