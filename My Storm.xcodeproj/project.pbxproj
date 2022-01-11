@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63BA18E9277927DE0067E922 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BA18E8277927DE0067E922 /* AppDelegate.swift */; };
+		63BA18F0277927DE0067E922 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63BA18EE277927DE0067E922 /* Main.storyboard */; };
+		63BA18F2277927DE0067E922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63BA18F1277927DE0067E922 /* Assets.xcassets */; };
+		63BA18F5277927DE0067E922 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63BA18F3277927DE0067E922 /* LaunchScreen.storyboard */; };
+		63BA1903277928930067E922 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BA18FF277928930067E922 /* HomePresenter.swift */; };
+		63BA1904277928930067E922 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BA1900277928930067E922 /* HomeViewController.swift */; };
+		63BA1906277928930067E922 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63BA1902277928930067E922 /* HomeViewController.xib */; };
+		63BA190D277928CD0067E922 /* SettingsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BA1909277928CD0067E922 /* SettingsPresenter.swift */; };
+		63BA190E277928CD0067E922 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BA190A277928CD0067E922 /* SettingsViewController.swift */; };
+		63BA1910277928CD0067E922 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63BA190C277928CD0067E922 /* SettingsViewController.xib */; };
+		63BA19122779296D0067E922 /* AdamAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BA19112779296D0067E922 /* AdamAudioPlayer.swift */; };
+		63BC0B2E277A908F007DC40A /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BC0B2C277A908F007DC40A /* HomeCollectionViewCell.swift */; };
+		63BC0B2F277A908F007DC40A /* HomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63BC0B2D277A908F007DC40A /* HomeCollectionViewCell.xib */; };
+		63C0D4A627792AEF009576FD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C0D4A527792AEF009576FD /* Constants.swift */; };
+		63C0D4A827792E33009576FD /* DownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C0D4A727792E33009576FD /* DownloadService.swift */; };
+		63C0D4AA2779323B009576FD /* MyStormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C0D4A92779323B009576FD /* MyStormData.swift */; };
+		63C0D4AD27793318009576FD /* Presets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C0D4AC27793318009576FD /* Presets.swift */; };
+		63C0D4AF277934E8009576FD /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C0D4AE277934E8009576FD /* AppData.swift */; };
+		63C0D4B127793612009576FD /* NowPlaying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C0D4B027793612009576FD /* NowPlaying.swift */; };
+		63C0D4B32779390C009576FD /* Array+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C0D4B22779390C009576FD /* Array+extension.swift */; };
+		63C0D4B527793965009576FD /* UserDefault+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C0D4B427793965009576FD /* UserDefault+extension.swift */; };
+		63C0D4B827796D2A009576FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C0D4B727796D2A009576FD /* SceneDelegate.swift */; };
+		63C0D4BA27796DB1009576FD /* AppColours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C0D4B927796DB1009576FD /* AppColours.swift */; };
+		63C0D4BC27796E27009576FD /* UIColour+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C0D4BB27796E27009576FD /* UIColour+extension.swift */; };
+		63D359E7277BD86B003FC96C /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D359E6277BD86B003FC96C /* APIHelper.swift */; };
+		CF65F348B64CF66C835BBD5E /* Pods_My_Storm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D896CF852066798522398E9B /* Pods_My_Storm.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		193EE369416A58C6CD16E325 /* Pods-My Storm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Storm.debug.xcconfig"; path = "Target Support Files/Pods-My Storm/Pods-My Storm.debug.xcconfig"; sourceTree = "<group>"; };
+		63BA18E5277927DE0067E922 /* My Storm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Storm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63BA18E8277927DE0067E922 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63BA18EF277927DE0067E922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63BA18F1277927DE0067E922 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63BA18F4277927DE0067E922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63BA18F6277927DE0067E922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63BA18FF277928930067E922 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		63BA1900277928930067E922 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		63BA1902277928930067E922 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		63BA1909277928CD0067E922 /* SettingsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPresenter.swift; sourceTree = "<group>"; };
+		63BA190A277928CD0067E922 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		63BA190C277928CD0067E922 /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		63BA19112779296D0067E922 /* AdamAudioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdamAudioPlayer.swift; sourceTree = "<group>"; };
+		63BC0B2C277A908F007DC40A /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		63BC0B2D277A908F007DC40A /* HomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCollectionViewCell.xib; sourceTree = "<group>"; };
+		63C0D4A527792AEF009576FD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		63C0D4A727792E33009576FD /* DownloadService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadService.swift; sourceTree = "<group>"; };
+		63C0D4A92779323B009576FD /* MyStormData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyStormData.swift; sourceTree = "<group>"; };
+		63C0D4AC27793318009576FD /* Presets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presets.swift; sourceTree = "<group>"; };
+		63C0D4AE277934E8009576FD /* AppData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		63C0D4B027793612009576FD /* NowPlaying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlaying.swift; sourceTree = "<group>"; };
+		63C0D4B22779390C009576FD /* Array+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+extension.swift"; sourceTree = "<group>"; };
+		63C0D4B427793965009576FD /* UserDefault+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefault+extension.swift"; sourceTree = "<group>"; };
+		63C0D4B727796D2A009576FD /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		63C0D4B927796DB1009576FD /* AppColours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColours.swift; sourceTree = "<group>"; };
+		63C0D4BB27796E27009576FD /* UIColour+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColour+extension.swift"; sourceTree = "<group>"; };
+		63D359E6277BD86B003FC96C /* APIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		895FA2764A5400FCF0CEABF9 /* Pods-My Storm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Storm.release.xcconfig"; path = "Target Support Files/Pods-My Storm/Pods-My Storm.release.xcconfig"; sourceTree = "<group>"; };
+		D896CF852066798522398E9B /* Pods_My_Storm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_My_Storm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63BA18E2277927DE0067E922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF65F348B64CF66C835BBD5E /* Pods_My_Storm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048C0EEA6662ED5E123A90F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D896CF852066798522398E9B /* Pods_My_Storm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63BA18DC277927DE0067E922 = {
+			isa = PBXGroup;
+			children = (
+				63BA18E7277927DE0067E922 /* My Storm */,
+				63BA18E6277927DE0067E922 /* Products */,
+				EA564477E1CE3A451E7C4E94 /* Pods */,
+				048C0EEA6662ED5E123A90F0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		63BA18E6277927DE0067E922 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63BA18E5277927DE0067E922 /* My Storm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63BA18E7277927DE0067E922 /* My Storm */ = {
+			isa = PBXGroup;
+			children = (
+				63C0D4A427792AD9009576FD /* Common */,
+				63BA18FD277928390067E922 /* Services */,
+				63BA18FC277928300067E922 /* Scenes */,
+				63BA18E8277927DE0067E922 /* AppDelegate.swift */,
+				63BA18EE277927DE0067E922 /* Main.storyboard */,
+				63C0D4B727796D2A009576FD /* SceneDelegate.swift */,
+				63BA18F1277927DE0067E922 /* Assets.xcassets */,
+				63BA18F3277927DE0067E922 /* LaunchScreen.storyboard */,
+				63BA18F6277927DE0067E922 /* Info.plist */,
+			);
+			path = "My Storm";
+			sourceTree = "<group>";
+		};
+		63BA18FC277928300067E922 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				63BA1907277928AA0067E922 /* Settings */,
+				63BA18FE2779287A0067E922 /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		63BA18FD277928390067E922 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				63C0D4AB277932B3009576FD /* Models */,
+				63C0D4A92779323B009576FD /* MyStormData.swift */,
+				63C0D4A727792E33009576FD /* DownloadService.swift */,
+				63C0D4AE277934E8009576FD /* AppData.swift */,
+				63BA19112779296D0067E922 /* AdamAudioPlayer.swift */,
+				63D359E6277BD86B003FC96C /* APIHelper.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		63BA18FE2779287A0067E922 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				63BC0B2B277A9070007DC40A /* Cells */,
+				63BA18FF277928930067E922 /* HomePresenter.swift */,
+				63BA1900277928930067E922 /* HomeViewController.swift */,
+				63BA1902277928930067E922 /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		63BA1907277928AA0067E922 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				63BA1909277928CD0067E922 /* SettingsPresenter.swift */,
+				63BA190A277928CD0067E922 /* SettingsViewController.swift */,
+				63BA190C277928CD0067E922 /* SettingsViewController.xib */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		63BC0B2B277A9070007DC40A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				63BC0B2C277A908F007DC40A /* HomeCollectionViewCell.swift */,
+				63BC0B2D277A908F007DC40A /* HomeCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		63C0D4A427792AD9009576FD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				63D359E8277D21AA003FC96C /* Extensions */,
+				63C0D4B927796DB1009576FD /* AppColours.swift */,
+				63C0D4A527792AEF009576FD /* Constants.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		63C0D4AB277932B3009576FD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				63C0D4AC27793318009576FD /* Presets.swift */,
+				63C0D4B027793612009576FD /* NowPlaying.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		63D359E8277D21AA003FC96C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				63C0D4B427793965009576FD /* UserDefault+extension.swift */,
+				63C0D4B22779390C009576FD /* Array+extension.swift */,
+				63C0D4BB27796E27009576FD /* UIColour+extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EA564477E1CE3A451E7C4E94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				193EE369416A58C6CD16E325 /* Pods-My Storm.debug.xcconfig */,
+				895FA2764A5400FCF0CEABF9 /* Pods-My Storm.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63BA18E4277927DE0067E922 /* My Storm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63BA18F9277927DE0067E922 /* Build configuration list for PBXNativeTarget "My Storm" */;
+			buildPhases = (
+				102ABA23ADCD4E75776AA197 /* [CP] Check Pods Manifest.lock */,
+				63BA18E1277927DE0067E922 /* Sources */,
+				63BA18E2277927DE0067E922 /* Frameworks */,
+				63BA18E3277927DE0067E922 /* Resources */,
+				3ED91BF88EE8DB36B971DE51 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Storm";
+			productName = "My Storm";
+			productReference = 63BA18E5277927DE0067E922 /* My Storm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63BA18DD277927DE0067E922 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					63BA18E4277927DE0067E922 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+				};
+			};
+			buildConfigurationList = 63BA18E0277927DE0067E922 /* Build configuration list for PBXProject "My Storm" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63BA18DC277927DE0067E922;
+			productRefGroup = 63BA18E6277927DE0067E922 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63BA18E4277927DE0067E922 /* My Storm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63BA18E3277927DE0067E922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63BA18F5277927DE0067E922 /* LaunchScreen.storyboard in Resources */,
+				63BC0B2F277A908F007DC40A /* HomeCollectionViewCell.xib in Resources */,
+				63BA18F2277927DE0067E922 /* Assets.xcassets in Resources */,
+				63BA18F0277927DE0067E922 /* Main.storyboard in Resources */,
+				63BA1906277928930067E922 /* HomeViewController.xib in Resources */,
+				63BA1910277928CD0067E922 /* SettingsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		102ABA23ADCD4E75776AA197 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-My Storm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3ED91BF88EE8DB36B971DE51 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-My Storm/Pods-My Storm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-My Storm/Pods-My Storm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-My Storm/Pods-My Storm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63BA18E1277927DE0067E922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C0D4AF277934E8009576FD /* AppData.swift in Sources */,
+				63BA1904277928930067E922 /* HomeViewController.swift in Sources */,
+				63C0D4AA2779323B009576FD /* MyStormData.swift in Sources */,
+				63C0D4BA27796DB1009576FD /* AppColours.swift in Sources */,
+				63BA19122779296D0067E922 /* AdamAudioPlayer.swift in Sources */,
+				63BC0B2E277A908F007DC40A /* HomeCollectionViewCell.swift in Sources */,
+				63BA190E277928CD0067E922 /* SettingsViewController.swift in Sources */,
+				63D359E7277BD86B003FC96C /* APIHelper.swift in Sources */,
+				63C0D4B827796D2A009576FD /* SceneDelegate.swift in Sources */,
+				63BA18E9277927DE0067E922 /* AppDelegate.swift in Sources */,
+				63C0D4B527793965009576FD /* UserDefault+extension.swift in Sources */,
+				63C0D4A827792E33009576FD /* DownloadService.swift in Sources */,
+				63C0D4AD27793318009576FD /* Presets.swift in Sources */,
+				63C0D4B127793612009576FD /* NowPlaying.swift in Sources */,
+				63BA1903277928930067E922 /* HomePresenter.swift in Sources */,
+				63C0D4B32779390C009576FD /* Array+extension.swift in Sources */,
+				63C0D4BC27796E27009576FD /* UIColour+extension.swift in Sources */,
+				63BA190D277928CD0067E922 /* SettingsPresenter.swift in Sources */,
+				63C0D4A627792AEF009576FD /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63BA18EE277927DE0067E922 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63BA18EF277927DE0067E922 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63BA18F3277927DE0067E922 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63BA18F4277927DE0067E922 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63BA18F7277927DE0067E922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63BA18F8277927DE0067E922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63BA18FA277927DE0067E922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 193EE369416A58C6CD16E325 /* Pods-My Storm.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B54Q48H848;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "My Storm/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "My Storm Sounds";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.adamware.My-Storm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63BA18FB277927DE0067E922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 895FA2764A5400FCF0CEABF9 /* Pods-My Storm.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B54Q48H848;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "My Storm/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "My Storm Sounds";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.adamware.My-Storm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63BA18E0277927DE0067E922 /* Build configuration list for PBXProject "My Storm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63BA18F7277927DE0067E922 /* Debug */,
+				63BA18F8277927DE0067E922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63BA18F9277927DE0067E922 /* Build configuration list for PBXNativeTarget "My Storm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63BA18FA277927DE0067E922 /* Debug */,
+				63BA18FB277927DE0067E922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63BA18DD277927DE0067E922 /* Project object */;
+}

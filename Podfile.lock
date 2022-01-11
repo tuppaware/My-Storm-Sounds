@@ -1,0 +1,30 @@
+PODS:
+  - Disk (0.6.4)
+  - SDDownloadManager (1.1.0)
+  - SDWebImage (5.12.1):
+    - SDWebImage/Core (= 5.12.1)
+  - SDWebImage/Core (5.12.1)
+  - SwiftDate (6.3.1)
+
+DEPENDENCIES:
+  - Disk
+  - SDDownloadManager
+  - SDWebImage (~> 5.0)
+  - SwiftDate
+
+SPEC REPOS:
+  trunk:
+    - Disk
+    - SDDownloadManager
+    - SDWebImage
+    - SwiftDate
+
+SPEC CHECKSUMS:
+  Disk: dcee5c2e98fb72f9a924cde8da8435b08244a80e
+  SDDownloadManager: 62a9339c03ea27606effefd9aa1800e4127e3a52
+  SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
+  SwiftDate: 72d28954e8e1c6c1c0f917ccc8005e4f83c7d4b2
+
+PODFILE CHECKSUM: 3ed7b7b5df3f59af61a1fdc840d6acde03dba6e0
+
+COCOAPODS: 1.11.1
