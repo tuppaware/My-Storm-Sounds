@@ -98,7 +98,6 @@ class HomeCollectionViewCell: UICollectionViewCell {
         self.backgroundColor = .clear
         self.playImage.tintColor = .white
         self.wrapperView.backgroundColor = AppColours.shared.commonBackgroundColour
-        self.soundName.textColor = UIColor.darkText
         self.downloadPanel.layer.cornerRadius = 4
         applyShadow()
     }
