@@ -27,7 +27,7 @@ class AppData {
             print("playing:", playing)
         }
     }
-
+// again somethign
     var highQuailtyEnabled: Bool {
         didSet {
             UserDefaults.standard.set(highQuailtyEnabled, forKey: "hifiFeaturedOption")
