@@ -9,6 +9,8 @@
 import Foundation
 import SwiftDate
 
+
+/// Just a common datasource. 
 class MyStormData {
 
     static let shared = MyStormData()

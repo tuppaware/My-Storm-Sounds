@@ -9,6 +9,8 @@
 import Foundation
 import Disk
 
+
+/// Main data storage for the app. Using Userdefaults for ease of use. But can extend into any data persistence.
 class AppData {
     
     static let shared = AppData()
