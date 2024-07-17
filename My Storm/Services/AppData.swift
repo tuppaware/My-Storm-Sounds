@@ -20,7 +20,7 @@ class AppData {
             UserDefaults.standard.set(uuid, forKey: "UUID")
         }
     }
-
+ // another change
     var playing: Bool {
         didSet {
             UserDefaults.standard.set(playing, forKey: "playing")
