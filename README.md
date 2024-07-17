@@ -17,6 +17,8 @@ Views are based in xib files rather than storyboards which is a more team friend
 ## Installing
 Clone the repo first :-P
 
+do a test thing
+
 The project currently uses Cocoapods for dependancy management, to run the application clone/download the repo and run:
 ```
 pod install
